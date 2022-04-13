@@ -1,0 +1,39 @@
+ a {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-white);
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+ a:hover {
+    color: orangered;
+}
+
+a.btn, .btn {
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-weight: 500;
+    padding: 5px 8px;
+}
+
+a.btn-dark {
+    border: 2px solid var(--color-white);
+    background: transparent;
+}
+
+.btn-dark:hover {
+    cursor: pointer;
+}
+
+a.btn-orange, .btn-orange{
+    border: 2px solid transparent;
+    background: orangered;
+    color: var(--color-white);
+}
+a.btn-orange, .btn-orange:hover{
+    background: rgb(89, 25, 2);
+    color: var(--color-white);
+    cursor: pointer;
+}
+

@@ -1,0 +1,69 @@
+section#social-media {
+    background: url(../../assets/yahaa.jpg);
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--color-white);
+}
+
+.subscribe h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    padding-bottom: 1rem;
+}
+p.title {
+    display: inline;
+}
+.social-icons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon a {
+    margin: 2rem;
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display :flex; 
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.social-icon a:hover{
+    background: var(--light-blue);
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.tiktok:hover {
+    color: black;
+}
+
+.spotify:hover {
+    color: green;
+}
+
+.instagram:hover {
+    color: rgb(206, 56, 206);
+}
+
+@media screen and (max-width: 600px){
+    section#subscribe {
+    background: url(../../assets/yahaa.jpg);
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    left: 100%;
+}
+}
